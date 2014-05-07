@@ -1,0 +1,18 @@
+<%= javascript_tag do %>
+  (function () {
+    var previous;
+    var issue_text;
+    $("#issue_priority_id").one('focus', function () {
+        previous = this.value;
+    }).change(function() {
+        issue_text = this.options[this.selectedIndex].innerHTML;
+        if (issue_text == 'Авария' || issue_text == 'Авария!') {
+          if (!confirm("Пожалуйста, убедитесь, что задача действительно является аварийной! \n\nПри необоснованном выборе максимальных приоритетов Ваш аккаунт будет заблокирован!")) {
+            $(this).val(previous);
+            return;
+          }
+        }
+        previous = this.value;
+    });
+  })();
+<% end %>
