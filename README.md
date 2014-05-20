@@ -11,8 +11,6 @@ Plugin compatible with Redmine 2.0.x, 2.1.x, 2.2.x, 2.3.x
 ```
 git clone git://github.com/olemskoi/redmine_issue_priority_alert.git
 ```
-
-
 3. Edit redmine_issue_priority_alert/config/locales/locale.yml
 ```yaml
     locale:
@@ -21,8 +19,6 @@ git clone git://github.com/olemskoi/redmine_issue_priority_alert.git
           - option: Accident
             alert: Accident message
 ```
-
-
 4. Run redmine
 
 ## Uninstall
