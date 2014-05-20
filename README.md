@@ -5,14 +5,14 @@ Plugin compatible with Redmine 2.0.x, 2.1.x, 2.2.x, 2.3.x
 
 ## Installation
 
-1. Stop redmine
+Stop redmine
 
-2. Clone repository to your redmine/plugins directory
+Clone repository to your redmine/plugins directory
 ```
 git clone git://github.com/olemskoi/redmine_issue_priority_alert.git
 ```
 
-3. Edit redmine_issue_priority_alert/config/locales/locale.yml
+Edit redmine_issue_priority_alert/config/locales/locale.yml
 ```yaml
     locale:
       issue:
@@ -21,7 +21,7 @@ git clone git://github.com/olemskoi/redmine_issue_priority_alert.git
             alert: Accident message
 ```
 
-4. Run redmine
+Run redmine
 
 ## Uninstall
 
