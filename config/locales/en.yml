@@ -1,0 +1,7 @@
+en:
+  issue:
+    options:
+      - option: Accident
+        alert: "Please make sure that the problem really is an emergency! \\n\\nThe maximum unjustified choosing priorities your account will be blocked!"
+      - option: Accident!
+        alert: "Please make sure that the problem really is an emergency! \\n\\nThe maximum unjustified choosing priorities your account will be blocked!"

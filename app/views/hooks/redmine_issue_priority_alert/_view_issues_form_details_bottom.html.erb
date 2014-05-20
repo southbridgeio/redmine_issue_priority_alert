@@ -6,12 +6,14 @@
         previous = this.value;
     }).change(function() {
         issue_text = this.options[this.selectedIndex].innerHTML;
-        if (issue_text == 'Авария' || issue_text == 'Авария!') {
-          if (!confirm("Пожалуйста, убедитесь, что задача действительно является аварийной! \n\nПри необоснованном выборе максимальных приоритетов Ваш аккаунт будет заблокирован!")) {
+        <% I18n.translate!("issue.options").each do |o| %>
+        if (issue_text == '<%= o["option"] %>') {
+          if (!confirm('<%= o["alert"] %>')) {
             $(this).val(previous);
             return;
           }
         }
+        <% end %>
         previous = this.value;
     });
   })();
