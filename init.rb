@@ -2,9 +2,9 @@ require_dependency 'redmine_issue_priority_alert/hooks'
 
 Redmine::Plugin.register :redmine_issue_priority_alert do
   name 'Redmine Issue Priority Alert plugin'
-  author 'Alexey V. Gordienko'
+  author 'Southbridge'
   description 'This is a plugin for Redmine'
   version '0.0.1'
-  url 'https://github.com/olemskoi/redmine_issue_priority_alert.git'
-  author_url 'https://github.com/gordienko'
+  url 'https://github.com/southbridgeio/redmine_issue_priority_alert'
+  author_url 'https://southbridge.io'
 end
