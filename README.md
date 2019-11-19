@@ -9,7 +9,7 @@ Stop redmine
 
 Clone repository to your redmine/plugins directory
 ```
-git clone git://github.com/olemskoi/redmine_issue_priority_alert.git
+git clone git://github.com/southbridgeio/redmine_issue_priority_alert
 ```
 
 Edit redmine_issue_priority_alert/config/locales/locale.yml
@@ -29,4 +29,4 @@ Remove plugin directory from your redmine/plugins directory
 
 ## Sponsors
 
-Work on this plugin was fully funded by [centos-admin.ru](http://centos-admin.ru)
+Work on this plugin was fully funded by [Southbridge](https://southbridge.io)
